@@ -1,0 +1,54 @@
+
+.navbar{
+
+font-size: 22px;
+color: rgb(240, 255, 254);
+height: 100px;
+    width: 100vw;
+
+}
+#cont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;;
+  
+  margin-right: 30px;
+
+ 
+
+}
+#buttons{
+
+ color: aliceblue;
+ 
+
+}
+
+.user-avatar {
+    --cl-user-button-size: 50px; /* Adjust size as needed */
+  }
+  .navbar  .img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6.25rem;
+ 
+    
+
+  }
+#navtext{
+  
+  color: rgb(210, 222, 218);
+}  
+@media screen and (min-width: 992px){
+  #cont{
+   
+    margin-left: 40rem;
+  
+   
+  
+  }
+  
+}
+  

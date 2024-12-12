@@ -1,0 +1,116 @@
+.courses{
+  display:flex ;
+  margin-top:  50px;
+ justify-content:center;
+ overflow: visible;
+ flex-wrap: wrap;
+ 
+}
+
+#image {
+  width: 100%;
+  height: auto;
+}
+h1{
+color: black;
+}
+
+.courses h1{
+align-items: center;
+text-align: center;
+} 
+.courses{
+margin-bottom: 80px;
+}
+.course-content{
+display: grid;
+grid-auto-columns: 1fr 3fr;
+}
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+}* Main content styles */
+   
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .app-container {
+      display: flex;
+     height: 77vh;
+    }
+    
+    /* Sidebar styles */
+    .sidebar {
+      width: 25%;
+      background-color: #f4f4f4;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+      overflow-y: auto;
+    }
+    
+    .chapters {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .chapter-link {
+      text-decoration: none;
+      color: #00d0ff;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      display: block;
+      width: 100%;
+    }
+    
+    .chapter-link:hover {
+      background-color: #0091ff;
+      color: white;
+
+    }
+    
+    /* Main content styles */
+    .main-content {
+      flex-grow: 1;
+      padding: 20px;
+      overflow-y: auto;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .chapter-link {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      text-align: left;
+      background: none;
+      border: none;
+      color: #007bff;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    
+    .chapter-link:hover {
+      color: #0056b3;
+    }
+    
