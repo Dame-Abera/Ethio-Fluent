@@ -44,6 +44,7 @@ height: 100px;
   
   color: rgb(210, 222, 218);
 }  
+
 @media screen and (min-width: 992px){
   #cont{
    

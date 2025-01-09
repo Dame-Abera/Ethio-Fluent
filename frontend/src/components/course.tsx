@@ -18,7 +18,6 @@ export default function AutoLayoutExample() {
     
   
     <Container className='cont'  id="home">
-     
     
       <Row  className="courses justify-content-md-center">
       <h1  >  available  Courses</h1>

@@ -712,20 +712,17 @@ function AfaanOromo() {
 
       {/* Main Content */}
       <div className="main-content">
-        {selectedChapter === 0 ? (
-          <>
-            <h1>Welcome to the Learning Platform</h1>
-            <p>Select a chapter from the sidebar to begin.</p>
-          </>
-        ) : (
+        {
           <>
             <h1>{chapters[selectedChapter].title}</h1>
             <div
               className="chapter-content"
-              dangerouslySetInnerHTML={{ __html: chapters[selectedChapter].content }}
+              dangerouslySetInnerHTML={{
+                __html: chapters[selectedChapter].content,
+              }}
             ></div>
           </>
-        )}
+        }
       </div>
     </div>
   );
