@@ -6,8 +6,7 @@ import "../components/css/culture.css";
 function Culture() {
   return (
     <div className="culture-container">
-      <Header />
-      <div className="culture-content">
+      <div className="culture-content" style={{display: 'flex', flexDirection: 'column', alignItems: "center", justifyContent: 'center'}}>
         <h1>Ethiopian Cultural Insights</h1>
 
         <section>
@@ -75,7 +74,6 @@ function Culture() {
           </p>
         </section>
       </div>
-      <Footer />
     </div>
   );
 }
