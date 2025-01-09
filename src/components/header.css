@@ -7,6 +7,10 @@ height: 100px;
     width: 100vw;
 
 }
+#sign-av .cl-user-button span {
+  color: white !important;
+}
+
 #cont{
   display: flex;
   flex-direction: row;
@@ -52,3 +56,6 @@ height: 100px;
   
 }
   
+#sign-av .cl-user-button span {
+  color: white !important; /* Or any color you prefer */
+}

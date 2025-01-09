@@ -19,17 +19,83 @@ function AfaanOromo() {
       `,
     },
     {
-      title: "Chapter 2: Basics",
-      content: `
-        <h2>Afaan Oromoo Basic Phrases</h2>
-        <p>Here are some basic phrases to get you started:</p>
-        <ul>
-          <li><strong>Fayyummaa gaarii qaba</strong> - I'm doing well</li>
-          <li><strong>Galatoomaa</strong> - Thank you</li>
-          <li><strong>Simboo</strong> - Welcome</li>
-        </ul>
-      `,
-    },
+        title: "Chapter 2: Basics",
+        content: `
+          <h2>Afaan Oromoo Basic Phrases</h2>
+          <p>Learning basic phrases is a great way to start speaking Afaan Oromoo. Here are some common expressions you'll use in everyday conversations:</p>
+      
+          <h3>1. Greetings and Introductions</h3>
+          <ul>
+            <li><strong>Akkam?</strong> - How are you?</li>
+            <li><strong>Akkaataa kee?</strong> - How are you doing?</li>
+            <li><strong>Galatoomaa</strong> - Thank you</li>
+            <li><strong>Simboo</strong> - Welcome</li>
+            <li><strong>Good Morning: <em>Baga garaa kee gaarii</em></strong></li>
+            <li><strong>Good Evening: <em>Baga galgalaa</em></strong></li>
+            <li><strong>Good Night: <em>Halkan gaarii</em></strong></li>
+          </ul>
+      
+          <h3>2. Introducing Yourself</h3>
+          <ul>
+            <li><strong>Maqaan koo ___</strong> - My name is ___</li>
+            <li>Example: <em>Maqaan koo Abdi</em> (My name is Abdi)</li>
+            <li><strong>Ati eenyu?</strong> - Who are you?</li>
+            <li><strong>Hedduun koo nagaa dha</strong> - I am fine (response to greetings)</li>
+          </ul>
+      
+          <h3>3. Basic Expressions</h3>
+          <ul>
+            <li><strong>Fayyummaa gaarii qaba</strong> - I'm doing well</li>
+            <li><strong>Galatoomaa</strong> - Thank you</li>
+            <li><strong>Simboo</strong> - Welcome</li>
+            <li><strong>Maaliif?</strong> - Why?</li>
+            <li><strong>Eyyee</strong> - Yes</li>
+            <li><strong>Hayyee</strong> - No</li>
+            <li><strong>Fakkenyaaf</strong> - For example</li>
+          </ul>
+      
+          <h3>4. Asking for Help</h3>
+          <ul>
+            <li><strong>Maaltu si barbaachisa?</strong> - What do you need?</li>
+            <li><strong>Na gargaari</strong> - Help me</li>
+            <li><strong>Akka gaariitti nan gargaara</strong> - I will help you</li>
+          </ul>
+      
+          <h3>5. Basic Questions</h3>
+          <ul>
+            <li><strong>Maaltu ta'ee?</strong> - What happened?</li>
+            <li><strong>Isa jiru eessa?</strong> - Where is it?</li>
+            <li><strong>Isaan hoo?</strong> - How about them?</li>
+            <li><strong>Kan biraa ni jiraa?</strong> - Is there something else?</li>
+          </ul>
+      
+          <h3>6. Directions</h3>
+          <ul>
+            <li><strong>Achii deemi</strong> - Go there</li>
+            <li><strong>Isa dura deemi</strong> - Go straight</li>
+            <li><strong>Garuu bitaa fi mirgaa ilaali</strong> - Turn left or right</li>
+            <li><strong>Gara jalqabaa deemi</strong> - Go back</li>
+          </ul>
+      
+          <h3>7. Polite Phrases</h3>
+          <ul>
+            <li><strong>Galatoomaa</strong> - Thank you</li>
+            <li><strong>Ni gammaddaa?</strong> - How are you feeling?</li>
+            <li><strong>Dhugaa maali?</strong> - What’s the truth?</li>
+            <li><strong>Waa'ee keenya</strong> - Excuse me (formal)</li>
+          </ul>
+          
+          <h3>8. Farewell</h3>
+          <ul>
+            <li><strong>Halkan gaarii</strong> - Good night</li>
+            <li><strong>Fiixee gaarii</strong> - Have a good day</li>
+            <li><strong>Ni wal argina</strong> - See you later</li>
+          </ul>
+      
+          <p>These phrases will help you in many everyday situations, whether you're meeting someone for the first time, asking for directions, or just having a casual conversation.</p>
+        `,
+      }
+      ,
     {
       title: "Chapter 3: Advanced Topics",
       content: `
@@ -139,12 +205,7 @@ function AfaanOromo() {
 
       {/* Main Content */}
       <div className="main-content">
-        {selectedChapter === 0 ? (
-          <>
-            <h1>Welcome to the Learning Platform</h1>
-            <p>Select a chapter from the sidebar to begin.</p>
-          </>
-        ) : (
+        { (
           <>
             <h1>{chapters[selectedChapter].title}</h1>
             <div
