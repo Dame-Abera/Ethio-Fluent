@@ -9,12 +9,12 @@ import App from "../App";
 function AppNavbar() {
   return (
     <div className="navbar" id="navbar">
-      <Navbar bg="dark" data-bs-theme="dark" fixed ="top" >
+      <Navbar data-bs-theme="dark" >
       <img src="/icon.png"  alt="icon image" height="100px"/>
-          <Container  className='toplink' id="cont">
-          <Link to="/">Home</Link>
-            <Link to="/culture">Culture</Link>
-            <Link to="/about">About devs </Link>
+          <Container className='toplink' id="cont">
+          <Link style={{color: 'black'}} to="/">Home</Link>
+            <Link style={{color: 'black'}} to="/culture">Culture</Link>
+            <Link style={{color: 'black'}} to="/about">About devs </Link>
             <div id="sign-av" className="user-avatar" > 
         <SignedOut>
         <SignInButton />
