@@ -29,7 +29,7 @@ export default function AutoLayoutExample() {
       <Card.Img variant="top" src="/oda.png" style={{ width: '22rem',  height:"17rem"}}/>
       <Card.Body>
         <Card.Title style={{ textAlign: 'left' }}> Learn Afaan Oromo</Card.Title>
-            <Link to="../components/mycourses.tsx"><Button variant="primary"onClick={handleNavigation}>Start Learning </Button></Link>
+            <Link to="../components/afaanoromo.tsx"><Button variant="primary"onClick={handleNavigation}>Start Learning </Button></Link>
             
         
       </Card.Body>
@@ -43,7 +43,7 @@ export default function AutoLayoutExample() {
       <Card.Img variant="top" src="/lalibela.png" style={{ width: '22rem',  height:"17rem"}}/>
       <Card.Body>
         <Card.Title style={{ textAlign: 'left' }} > Learn Amarigna</Card.Title>
-        <Link to="../components/ucourse.tsx"><Button variant="primary"onClick={handleNavigation}>Start Learning </Button></Link>
+        <Link to="../components/amaric.tsx"><Button variant="primary"onClick={handleNavigation}>Start Learning </Button></Link>
       </Card.Body>
     </Card>
     </div>
@@ -54,7 +54,7 @@ export default function AutoLayoutExample() {
       <Card.Img variant="top" src="/aksum.png" style={{ width: '22rem',  height:"17rem"}}/>
       <Card.Body>
         <Card.Title style={{ textAlign: 'left' }}> Learn Tigrigna </Card.Title>
-        <Link to="../components/ucourse.tsx"><Button variant="primary"onClick={handleNavigation}>Start Learning </Button></Link>
+        <Link to="../components/tigrenya.tsx"><Button variant="primary"onClick={handleNavigation}>Start Learning </Button></Link>
       </Card.Body>
     </Card>
     </div>

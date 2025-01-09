@@ -6,9 +6,11 @@ import Course from "./components/course"
 import Footer from "./components/footer"
 import {Routes,Route} from "react-router-dom";
 import MyCourses from "./components/mycourses";
-import Ucourse from "./components/ucourse"
+import Amaric from  "./components/amaric"
+import Tcourse from "./components/tigrenya"
 import Culture from "./components/culture";
 import About from "./components/about";
+import AfaanOromo from "./components/afaanoromo"
 function App() {
   
   return (
@@ -20,7 +22,9 @@ function App() {
         <Routes>
         <Route path="/" element={<Course/>} />
           <Route path="/components/mycourses.tsx" element={<MyCourses />} />
-          <Route path="/components/ucourse.tsx" element={<Ucourse />} />
+          <Route path="/components/tigrenya.tsx" element={<Tcourse />} />
+          <Route path="/components/amaric.tsx" element={<Amaric />} />
+          <Route path="/components/afaanoromo.tsx" element= {<AfaanOromo/>}/>
           <Route path="/culture" element={<Culture />} />
           <Route path="/about" element={<About />} />
 
