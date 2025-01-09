@@ -5,9 +5,8 @@ import "../components/css/Aboutdevs.css";
 
 function AboutDevs() {
   return (
-    <div className="about-devs-container">
-      <Header />
-      <div className="about-devs-content">
+    <div className="about-devs-container" >
+      <div className="about-devs-content"  style={{display: 'flex', flexDirection: 'column', alignItems: "center", justifyContent: 'center'}}>
         <h1>About the Developers</h1>
         <p>
           We are a team of passionate software engineering students at Addis Ababa University. Our goal is to
@@ -30,7 +29,6 @@ function AboutDevs() {
           the globe and contribute to the education of future generations.
         </p>
       </div>
-      <Footer />
     </div>
   );
 }

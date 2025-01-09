@@ -101,10 +101,17 @@ function App() {
       `,
     },
     {
-      title: "Chapter 6: Concepts",
+      title: "Chapter 6: Sentence Structures and Conjunctions",
       content: `
-        <h2>Key Concepts in Afaan Oromoo</h2>
-        <p>This chapter covers key linguistic concepts to help you build a strong foundation.</p>
+        <h2>Chapter 6: Sentence Structures and Conjunctions</h2>
+<p>In this chapter, you will learn how to form more complex sentences using conjunctions and different sentence structures. Amharic uses conjunctions to link phrases and clauses together, which helps express complex ideas.</p>
+<ul>
+  <li><strong>እንዴት ነህን?</strong> (How are you?) + <strong>እኔ አመሰግናለሁ</strong> (I am fine)</li>
+  <li><strong>እሷ መኪና እንደተቀበለች ነበር</strong> (She took the car)</li>
+  <li>Using conjunctions like <strong>እና</strong> (and), <strong>ነገር ግን</strong> (but), and <strong>ስለዚህ</strong> (because)</li>
+</ul>
+<p>Conjunctions are vital for connecting ideas and making your speech flow more naturally.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       `,
     },
     {
