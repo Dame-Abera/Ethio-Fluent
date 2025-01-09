@@ -120,12 +120,7 @@ function App() {
 
       {/* Main Content */}
       <div className="main-content">
-        {selectedChapter === 0 ? (
-          <>
-            <h1>Welcome to the Learning Platform</h1>
-            <p>Select a chapter from the sidebar to begin.</p>
-          </>
-        ) : (
+        { (
           <>
             <h1>{chapters[selectedChapter].title}</h1>
             <div

@@ -22,7 +22,14 @@ function AppNavbar() {
       
       <SignedIn>
        
-          <UserButton   />
+          <UserButton  showName appearance={{
+    elements: {
+      userButtonOuterIdentifier: {
+        color: "white", // Change text color
+      },
+    },
+  }}/>
+          
         
        
       </SignedIn>
