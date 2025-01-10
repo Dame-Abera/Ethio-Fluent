@@ -15,7 +15,7 @@ function AppNavbar() {
         email: user.emailAddresses[0].emailAddress,
         firstName: user.firstName,
         lastName: user.lastName,
-        hash: "", // Add a hash if needed
+        hash: "",
       };
 
       // Send user info to the backend
@@ -32,31 +32,31 @@ function AppNavbar() {
 
   return (
     <div className="navbar" id="navbar">
-      <Navbar bg="dark" data-bs-theme="dark" fixed ="top" >
-      <img src="/icon.png"  alt="icon image" height="100px"/>
-          <Container  className='toplink' id="cont">
-          <Link to="/">Home</Link>
-            <Link to="/culture">Culture</Link>
-            <Link to="/about">About devs </Link>
-            <div id="sign-av" className="user-avatar" > 
-        <SignedOut>
-        <SignInButton />
-      </SignedOut>
-      
-      <SignedIn>
-       
-          <UserButton  showName appearance={{
-    elements: {
-      userButtonOuterIdentifier: {
-        color: "white", // Change text color
-      },
-    },
-  }}/>
-          
-        
-       
-      </SignedIn>
-      </div>
+      <Navbar data-bs-theme="dark">
+        <img src="/icon.png" alt="icon image" height="50px" />
+        <Container className='toplink' id="cont">
+          <Link style={{color: 'black', textDecoration: 'none'}} to="/">Home</Link>
+          <Link style={{color: 'black', textDecoration: 'none'}} to="/culture">Culture</Link>
+          <Link style={{color: 'black', textDecoration: 'none'}} to="/about">About devs </Link>
+          <div id="sign-av" className="user-avatar" >
+            <SignedOut>
+              <SignInButton />
+            </SignedOut>
+
+            <SignedIn>
+
+              <UserButton showName appearance={{
+                elements: {
+                  userButtonOuterIdentifier: {
+                    color: "black",
+                  },
+                },
+              }} />
+
+
+
+            </SignedIn>
+          </div>
         </Container>
       </Navbar>
     </div>
