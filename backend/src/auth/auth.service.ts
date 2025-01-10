@@ -24,7 +24,7 @@ export class AuthService {
         data: {
           email: dto.email,
           hash,
-          role: dto.role || 'STUDENT',
+          role: dto.role || "STUDENT",
         },
       });
       return this.signToken(user.id, user.email,user.role);

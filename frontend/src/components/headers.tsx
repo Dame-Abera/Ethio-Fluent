@@ -5,7 +5,6 @@ import "./header.css";
 import { SignedIn, SignedOut, SignInButton, UserButton, useUser } from "@clerk/clerk-react";
 import { Routes, Route, Link } from "react-router-dom";
 import axios from "axios";
-
 function AppNavbar() {
   const { user } = useUser();
 
